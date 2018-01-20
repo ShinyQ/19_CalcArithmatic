@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.sch.smktelkom_mlg.tugas01.xirpl319.hitungaritmatika.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/button_grey"
+    >
+
+    <EditText
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.6"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical|right"
+        android:text="0"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/activity_margin"
+        android:paddingRight="@dimen/activity_margin"
+        android:textSize="@dimen/hasil_text_size"
+        android:textColor="@color/white"
+        android:background="@color/background"
+        android:focusableInTouchMode="false"
+        android:inputType="text"
+        android:maxLength="12"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_1"
+            style="@style/Tombol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1"
+            android:background="@drawable/tombol"
+            />
+
+        <Button
+            android:id="@+id/btn_2"
+            style="@style/Tombol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="2"
+            android:background="@drawable/tombol"
+            />
+
+        <Button
+            android:id="@+id/btn_3"
+            style="@style/Tombol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="3"
+            android:background="@drawable/tombol"
+            />
+
+        <Button
+            android:id="@+id/btn_bagi"
+            style="@style/Tombol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="/"
+            android:background="@drawable/tombol"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:background="@drawable/tombol"
+        >
+
+        <Button
+            android:id="@+id/btn_4"
+            style="@style/Tombol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="4"
+            android:background="@drawable/tombol"
+            />
+
+        <Button
+            android:id="@+id/btn_5"
+            style="@style/Tombol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="5"
+            android:background="@drawable/tombol"
+            />
+
+        <Button
+            android:id="@+id/btn_6"
+            style="@style/Tombol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="6"
+            android:background="@drawable/tombol"
+            />
+
+        <Button
+            android:id="@+id/btn_kali"
+            style="@style/Tombol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="*"
+            android:background="@drawable/tombol"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_7"
+            style="@style/Tombol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="7"
+            android:background="@drawable/tombol"
+            />
+
+        <Button
+            android:id="@+id/btn_8"
+            style="@style/Tombol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="8"
+            android:background="@drawable/tombol"
+            />
+
+        <Button
+            android:id="@+id/btn_9"
+            style="@style/Tombol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tombol"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/btn_kurang"
+            style="@style/Tombol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-"
+            android:background="@drawable/tombol"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_hapus"
+            style="@style/Tombol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="C"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:background="@drawable/tombol"
+            />
+
+        <Button
+            android:id="@+id/btn_0"
+            style="@style/Tombol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0"
+            android:background="@drawable/tombol"
+
+            />
+
+        <Button
+        android:id="@+id/btn_hasil"
+        style="@style/Tombol"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="="
+            android:background="@drawable/tombol"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btn_tambah"
+            style="@style/Tombol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="+"
+            android:background="@drawable/tombol"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
